@@ -7,4 +7,4 @@ Welcome to my cake bakery website! This project is a creative showcase of my web
 <p>This project is a cake bakery website designed to offer a seamless and engaging online experience for cake lovers. The website highlights various cake offerings, from classic flavors to custom designs, in a visually appealing and user-friendly layout. Built using HTML, CSS, and JavaScript, the website is fully responsive, ensuring optimal performance across all devices. Key features include a gallery of cake designs, an easy-to-use contact form, and a menu displaying the full range of bakery products. </p>
 <br>
 <h3>project UI:</h3>
-![image alt](https://github.com/Mehuull/Cake-Bakery-Website/blob/8eed08e40a7ec3626a0763163fa0cd98038769cb/Cake-Bakery-UI.png)
+![Cake Bakery UI](https://raw.githubusercontent.com/Mehuull/Cake-Bakery-Website/8eed08e40a7ec3626a0763163fa0cd98038769cb/Cake-Bakery-UI.png)
