@@ -283,10 +283,10 @@
 
 <section class="contact" id="contact">
     <div class="container">
-        <h2> feedback us</h2>
+        <h2>Feedback Us</h2>
         <div class="contact-wrapper">
             <div class="contact-form">
-                <h3>send us a message</h3>
+                <h3>Send Us a Message</h3>
                 <form>
                     <div class="form-group">
                         <input type="text" placeholder="Name">
@@ -295,24 +295,38 @@
                         <input type="email" placeholder="E-mail">
                     </div>
                     <div class="form-group">
-                        <input type="phone" placeholder="Phone-number">
+                        <input type="tel" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="" placeholder="Message"></textarea>
+                        <textarea name="message" placeholder="Message" rows="3"></textarea>
                     </div>
-                    <a href="#" class="btn">submit</a>
-
+                    <button type="submit" class="btn">Submit</button>
                 </form>
             </div>
             <div class="contact-info">
-                <h3>Contact information</h3>
-                <p>   <i class="fas fa-phone"></i>+91 xxxxx xxx89</p>
-                <p>   <i class="fas fa-envelope"></i>project@gmail.com</p>
-                <p>   <i class="fas fa-map-marker-alt"></i>123 street , city , country </p>
+                <h3>Contact Information</h3>
+                <div class="sub-contact">
+                    <p><i class="fas fa-phone"></i> +91 xxxxx xxx89</p>
+                    <p><i class="fas fa-envelope"></i> project@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</p>
+                </div>
+                <div class="map">
+                    <iframe id="googlelocation" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1734.6282206554731!2d72.82400682154885!3d21.194419457391152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e60d49aaf5f%3A0x3da4afc3e0fa1ed3!2sSurat%20Khaman%20House!5e0!3m2!1sen!2sin!4v1732877060348!5m2!1sen!2sin" 
+                        width="420" 
+                        height="220" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
+            
         </div>
-
     </div>
+</section>
+
 
     <!-- footer section     -->
     <section class="footer">
@@ -356,9 +370,8 @@
                 </form>
             </div>
         </div>
+        <div class="credit">created by <span><i class="fa-brands fa-github"></i>&nbsp;Mehuull</span></div>
     </section>
-
-    <section class="credit">created by <span><i class="fa-brands fa-github"></i>&nbsp;Mehuull</span></section>
 
 
 <script src="main.js" defer data-deferred="1"></script>
